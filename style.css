@@ -1,10 +1,13 @@
 body{
   font-family: 'Poppins', sans-serif;
   background-color: #d8ecff;
+  padding-top: 70px;
 }
-.animate{
-  animation-duration: .3s;
+.nav-item a:hover{
+  transition: all .3s ease;
+
 }
+
 @keyframes slideIn{
   0%{
     transform: translateY(-10%);
@@ -19,9 +22,7 @@ body{
     opacity: 0;
   }
 }
-.slideIn{
-  animation-name: slideIn;
-}
+
 
 @media screen and (min-width: 992px) {
 .navbar-nav .nav-item .dropdown-menu {
@@ -30,6 +31,8 @@ body{
 }
 .navbar-nav .nav-item:hover .dropdown-menu  {
   display: block;
+  animation-name: slideIn;
+  animation-duration: .5s;
 }}
 
 .dropdown-menu-end{
