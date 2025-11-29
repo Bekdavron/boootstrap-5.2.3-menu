@@ -8,3 +8,28 @@ https://getbootstrap.com/docs/5.2/components/dropdowns/
 <ul class="dropdown-menu dropdown-menu-end">
 submenu chapga chiqishi uchun class qo'shdim
 
+hoverda ishlashi uchun class qushdim:
+@media screen and (min-width: 992px) {
+.navbar-nav .nav-item .dropdown-menu {
+  display: none;
+  
+}
+.navbar-nav .nav-item:hover .dropdown-menu  {
+  display: block;
+}}
+
+.dropdown-menu-end{
+  right: 0;
+  left: auto; 
+
+}
+display: none ga tushirilgan dropdown menyularni Google jazolamaydi.
+
+Google aynan display:none, visibility:hidden, opacity:0 kabi dropdownlarni jazo deb hisoblamaydi.
+
+Chunki dropdown menyular interaktiv elementlar bo‘lgani uchun yashirilgan bo‘lishi — normal holat.
+
+Google o‘zi aytgan:
+
+Navigatsiya dropdownlari yoki tabs ichidagi yashirilgan kontent SEO uchun xavf emas.
+
