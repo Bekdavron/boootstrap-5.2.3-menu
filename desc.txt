@@ -1,0 +1,10 @@
+Navbar ffcanvasni copy qilib,joyladim
+https://getbootstrap.com/docs/5.2/components/navbar/#offcanvas
+
+navbar-expand-lg class qushdim,lg dan boshlab menular ochiq bulishi uchun
+https://getbootstrap.com/docs/5.2/components/navbar/#responsive-behaviors
+
+https://getbootstrap.com/docs/5.2/components/dropdowns/
+<ul class="dropdown-menu dropdown-menu-end">
+submenu chapga chiqishi uchun class qo'shdim
+
