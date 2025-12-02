@@ -22,21 +22,12 @@ body{
     opacity: 0;
   }
 }
-
-
-@media screen and (min-width: 992px) {
-.navbar-nav .nav-item .dropdown-menu {
-  display: none;
-  
-}
-.navbar-nav .nav-item:hover .dropdown-menu  {
-  display: block;
-  animation-name: slideIn;
-  animation-duration: .5s;
-}}
-
-.dropdown-menu-end{
+ .dropdown-menu-end{
   right: 0;
   left: auto; 
-
+  margin-left: 0;
+  margin-right: 0;
+}
+.nav-item .dropstart > .dropdown-menu{
+  margin-right: 0;
 }
